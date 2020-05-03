@@ -195,7 +195,7 @@ header .icons .fa-search {
 .upNext > .title {
   font-size: var(--font-medium);
   color: var(--grey-dark-color);
-  margin-bottom: var(--spacing-small));
+  margin-bottom: var(--spacing-small);
 }
 
 .upNext .item {
@@ -214,16 +214,13 @@ header .icons .fa-search {
 
 .upNext .item .itemInfo {
   flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 .upNext .item .moreBtn {
   flex-basis: 5%;
   height: 100%;
-}
-
-.upNext .item .itemInfo {
-  display: flex;
-  flex-direction: column;
 }
 
 .upNext .item .itemInfo .title {
