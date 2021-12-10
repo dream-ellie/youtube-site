@@ -13,11 +13,11 @@
   --avatar-size: 36px;
 
   /* Font Size */
-  --font-large: 20px;
-  --font-regular: 16px;
-  --font-medium: 14px;
-  --font-small: 12px;
-  --font-micro: 10px;
+  --font-large: 50px;
+  --font-regular: 50px;
+  --font-medium: 50px;
+  --font-small: 50px;
+  --font-micro: 50px;
 }
 
 * {
